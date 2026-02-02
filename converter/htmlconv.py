@@ -1,6 +1,6 @@
 from rich import print
 
-# HTML tags guide with their simple definitions
+# HTML tags guide with definitions
 htmlg = {
         'html': "<html> - Defines the start and end of an HTML document.",
         'head': "<head> - Contains metadata about the document, such as title and character set.",
