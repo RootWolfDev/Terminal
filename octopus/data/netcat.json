@@ -1,0 +1,15 @@
+{
+  "title": "Netcat (nc)",
+  "description": "Netcat is a versatile networking utility for reading and writing data over network connections.",
+  "uses": [
+    "Test open ports",
+    "Create client-server connections",
+    "Debug network services"
+  ],
+  "basic_commands": {
+    "Port scan": "nc -zv example.com 1-1000",
+    "Listen on port": "nc -l 4444",
+    "Connect to host": "nc example.com 4444"
+  },
+  "note": "Improper use can be illegal on unauthorized systems."
+}

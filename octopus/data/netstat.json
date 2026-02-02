@@ -1,0 +1,15 @@
+{
+  "title": "Netstat / ss",
+  "description": "Netstat and ss display network connections, routing tables, and listening ports.",
+  "uses": [
+    "View open ports",
+    "Monitor connections",
+    "Inspect network status"
+  ],
+  "basic_commands": {
+    "Show listening ports": "ss -l",
+    "Show TCP connections": "ss -t",
+    "Show all connections": "netstat -an"
+  },
+  "note": "Information should be used for administration or authorized analysis only."
+}

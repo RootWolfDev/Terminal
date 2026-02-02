@@ -1,0 +1,15 @@
+{
+  "title": "Hydra",
+  "description": "Hydra is a fast network login testing tool used to check the strength of authentication systems.",
+  "uses": [
+    "Test password strength",
+    "Identify weak credentials",
+    "Audit authentication services"
+  ],
+  "basic_commands": {
+    "Test a service": "hydra -l user -P passwords.txt service://example.com",
+    "Test SSH login": "hydra -l user -P passwords.txt ssh://example.com",
+    "Verbose output": "hydra -v"
+  },
+  "note": "Using Hydra without permission is illegal and unethical"
+}

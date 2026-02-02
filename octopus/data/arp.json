@@ -1,0 +1,14 @@
+{
+  "title": "ARP",
+  "description": "ARP tools are used to view and manage the Address Resolution Protocol table.",
+  "uses": [
+    "View connected devices",
+    "Map IP addresses to MAC addresses",
+    "Troubleshoot LAN issues"
+  ],
+  "basic_commands": {
+    "View ARP table": "arp -a",
+    "Delete ARP entry": "arp -d 192.168.1.1"
+  },
+  "note": "ARP manipulation can disrupt networks if misused."
+}

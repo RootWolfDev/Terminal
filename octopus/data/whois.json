@@ -1,0 +1,14 @@
+{
+  "title": "Whois",
+  "description": "Whois retrieves public registration information for domains and IP addresses.",
+  "uses": [
+    "Identify domain ownership",
+    "Check registration details",
+    "Gather public network information"
+  ],
+  "basic_commands": {
+    "Domain lookup": "whois example.com",
+    "IP lookup": "whois 8.8.8.8"
+  },
+  "note": "Data is public but should be used ethically."
+}

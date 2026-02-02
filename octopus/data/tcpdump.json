@@ -1,0 +1,16 @@
+{
+  "title": "Tcpdump",
+  "description": "Tcpdump is a command-line packet analyzer used to capture and inspect network traffic.",
+  "uses": [
+    "Capture packets",
+    "Analyze network traffic",
+    "Troubleshoot network issues"
+  ],
+  "basic_commands": {
+    "Capture on interface": "tcpdump -i eth0",
+    "Capture limited packets": "tcpdump -c 50",
+    "Capture specific port": "tcpdump port 80",
+    "Save to file": "tcpdump -w capture.pcap"
+  },
+  "note": "Capturing traffic without authorization may violate privacy laws."
+}

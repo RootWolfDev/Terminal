@@ -1,0 +1,15 @@
+{
+  "title": "Traceroute",
+  "description": "Traceroute tracks the path packets take from source to destination.",
+  "uses": [
+    "Analyze routing paths",
+    "Detect network delays",
+    "Locate connectivity issues"
+  ],
+  "basic_commands": {
+    "Standard trace": "traceroute example.com",
+    "ICMP trace": "traceroute -I example.com",
+    "TCP trace": "traceroute -T example.com"
+  },
+  "note": "Some networks block traceroute traffic."
+}

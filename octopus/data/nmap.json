@@ -1,0 +1,20 @@
+{
+  "title": "Nmap",
+  "description": "Nmap is an open-source network scanning tool used for discovery and security assessment.",
+  "uses": [
+    "Discover hosts on a network",
+    "Scan open ports",
+    "Detect services and versions",
+    "Identify operating systems"
+  ],
+  "basic_commands": {
+    "Simple scan": "nmap 192.168.1.1",
+    "Network scan": "nmap 192.168.1.0/24",
+    "TCP SYN scan": "nmap -sS example.com",
+    "Service version detection": "nmap -sV example.com",
+    "OS detection": "nmap -O example.com",
+    "Aggressive scan": "nmap -A example.com",
+    "Scan specific ports": "nmap -p 80,443 example.com"
+  },
+  "note": "Use Nmap only on systems you own or have explicit permission to test."
+}

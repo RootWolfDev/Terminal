@@ -1,0 +1,15 @@
+{
+  "title": "SQLmap",
+  "description": "SQLmap is an automated tool for detecting and exploiting SQL injection vulnerabilities.",
+  "uses": [
+    "Detect SQL injection flaws",
+    "Test database security",
+    "Automate vulnerability assessment"
+  ],
+  "basic_commands": {
+    "Test URL": "sqlmap -u \"http://example.com/page?id=1\"",
+    "Use database detection": "sqlmap -u URL --dbs",
+    "Use batch mode": "sqlmap -u URL --batch"
+  },
+  "note": "SQLmap should only be used on systems you own or have permission to test."
+}

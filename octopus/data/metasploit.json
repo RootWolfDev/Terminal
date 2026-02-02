@@ -1,0 +1,16 @@
+{
+  "title": "Metasploit Framework",
+  "description": "Metasploit is a penetration testing framework used to identify, test, and validate security vulnerabilities.",
+  "uses": [
+    "Test known vulnerabilities",
+    "Validate security weaknesses",
+    "Simulate real-world attacks in a controlled environment"
+  ],
+  "basic_commands": {
+    "Start Metasploit": "msfconsole",
+    "Search for a module": "search exploit",
+    "Use a module": "use exploit/example",
+    "Show module options": "show options"
+  },
+  "note": "Metasploit must only be used on systems you own or have explicit authorization to test."
+}
