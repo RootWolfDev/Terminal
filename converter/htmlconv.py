@@ -70,11 +70,11 @@ def help_b():
         )
     print('__________HTML guide with simple definition__________')
    
-    # Print all tags with their definitions
+    # Print all tags help
     for key, value in htmlg.items():
         print(f'[red]{key}[/]: [green]{value}[/]')
 
-# Start of the HTML post builder program
+# Start of the post
 def one():
     print("HTML post builder...")
     print(r"""
