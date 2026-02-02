@@ -71,7 +71,7 @@ def Tool():
 
     if 'ynet' in result:
         used=True
-        #('chek ip':'-Ip'):
+        #chek ip
     if '-Ip' in result :
         line()
         try:
@@ -83,13 +83,13 @@ def Tool():
             except: 
                 pass      
         used=True
-        #('whois':'-Ws')
+        #whois it's easy
     if '-Ws' in result:
         line()
         whois=requests.get(f'https://api.whois.vu/?q={domain}')
         print('Whois\n',whois.text)
         used=True
-        #('technology enumeration':'-Te')
+        #technology enumeration
     if '-Te' in result:
         line()
         try:
@@ -102,7 +102,7 @@ def Tool():
                 response = requests.get(urld)
         for x,y in response.headers.items():
             print(f'{x}:{y}')
-            #('chek webscarping ':'-Pg')
+            #chek webscarping 
     if '-Pg' in result:
         line()
         urls = [
@@ -170,7 +170,7 @@ def Tool():
     if base_url is None:
         pass
 
-# port
+# port updated 01/02/26
     for port in range(0, 10000):
         try:
             url = f"{base_url}:{port}"
