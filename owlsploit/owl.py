@@ -1,6 +1,7 @@
 #fix terminal : list ,... i don't know
 #like meta sploit  and beutyful  but not now for all sploit i learned
 # import forms
+# hi this program not yet it's just some of testing
 from playwright.sync_api import sync_playwright
 with sync_playwright() as pr :
     #playwright is a name of broswer in ligne 5

@@ -67,7 +67,7 @@ def Tool_e():
       except Exception as e:
          print(f'[red]error:[/] {e}')
 
-    # Decode binerie to python
+    # Decode binerie to python there is some broblem here
    elif result_e == 'yenc -Md':
       line_e()
       file1 = input('PATH_FILE (.bin): ')

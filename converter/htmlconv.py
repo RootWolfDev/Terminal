@@ -93,7 +93,7 @@ def one():
     print("4. Show HTML Tags")
     print("5. Use HTML tags directly")
     print("0. Exit")
-# Function to directly add HTML tags to the document
+
 def use_tags():
     global htmlg
     print("You can now add any HTML tag directly!")
@@ -148,13 +148,13 @@ def first():
 
     elif answer == "exit" or "0":
         print("Exiting...")
-        return False  # Return False to stop the loop and exit
+        return False  
 
     else:
         print("Invalid choice! Please try again.")
-    return True  # Keep the loop running unless the user chooses to exit
+    return True  
 
-# Function to write the HTML content to a file
+
 def writing(f):
     print("What can I help you with?")
     while True:
@@ -201,12 +201,12 @@ def writing(f):
         else:
             print("Unknown command!")
 
-# Run the program
+# Run now
 def founct_ht():
     try:
         one()
         while True:
-            if not first():  # Exit if user chooses 0
+            if not first():
                 break
 
     except Exception as e:
