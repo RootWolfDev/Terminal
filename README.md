@@ -1,5 +1,5 @@
 ## "# Terminal" 
 
-````bash
+```bash
 python run.py
 ```
