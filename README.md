@@ -1,1 +1,2 @@
 "# Terminal" 
+python run.py
